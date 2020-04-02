@@ -1,0 +1,5 @@
+﻿D:\vs2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (socket_test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  client.cpp
+D:\c++\socket_test\socket_test\client.cpp(27,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\WINSOCK2.H(1831): message : 参见“inet_addr”的声明
+  socket_test.vcxproj -> D:\c++\socket_test\Debug\client.exe
